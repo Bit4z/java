@@ -1,0 +1,17 @@
+#creating one document in mongo db
+
+db.shivang.insertOne({name:"shivang",type:"friend",college:"gla University",uid:17420011})
+
+#show active database
+db
+show collections #show collection
+
+
+#show documents
+db.shivang.find()
+db.shivang.find().pretty()
+
+
+#insert many document
+
+> db.shivang.insertMany([{name:"ziyaulhaq", city:"Aligarh",course:"MCA",Uid:"20MCA1307"},{gmail:"20mca1307@gmail.com",contact:704044392}])
